@@ -6,4 +6,3 @@ listener.addEventListener("mouseover", function () {hoverElement.style.display="
 listener.addEventListener("mouseout", function () {hoverElement.style.display="none"});
 
 
-// pytanie do bardziej doświadczonego programisty to dlaczego nie udało mi się tego zrobić tylko przy użyciu css
