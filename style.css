@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+
+    --VeryDarkBlueMainBG: hsl(217, 54%, 11%);
+    --VeryDarkBlueCardBG: hsl(216, 50%, 16%);
+    --VeryDarkBlueLine: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --LightGreen: rgb(23,248,252);
+    --letterColor: rgb(145,166, 195);
+   
+
+}
+
+body {
+
+    font-family: 'Outfit', sans-serif;
+ 
+}
+
+.container {
+
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--VeryDarkBlueMainBG);
+    
+}
+
+.content-box {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--VeryDarkBlueCardBG);
+    border-radius: 10px;
+     box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.75);
+    
+    
+}
+
+.content-box2 {
+
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+.backImage {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--LightGreen);
+   width: 260px;
+   height: 260px;
+   border-radius: 10px;
+   margin: 30px;
+
+}
+
+.iconView {
+    position: absolute;
+    left: 50%;
+    translate: -22px -22px;
+    z-index: 1;
+    display: none;
+   
+}
+
+.equBox {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 260px;
+   height: 260px;
+   border-radius: 10px;
+   margin: 30px;
+}
+
+
+
+.equilibrium {
+   
+   width: 260px;
+   height: 260px;
+   border-radius: 10px;
+   margin: 30px;
+   transition: 0.3s;
+  
+}
+
+.equilibrium:hover {
+    opacity: 0.7;
+}
+
+
+h1 {
+   color: var(--White);
+   font-size: 22px;
+   margin-bottom: 15px;
+}
+
+p {
+    color: var(--letterColor);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.functionalContainer {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;  
+}
+
+.left, .right {
+
+    display: flex;
+    align-items: center;
+}
+
+.eth {
+    margin-left: 8px;
+    color: var(--LightGreen);
+    font-weight: 600;
+}
+
+.reminder {
+    margin-left: 8px;
+    color: var(--letterColor);
+}
+
+.footer {
+    
+    margin: 20px 0px;
+    padding-top: 20px;
+    border-top: 1.5px solid var(--VeryDarkBlueLine);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+.avatar {
+
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border: 2px solid var(--White);
+    border-radius: 100%;
+}
+
+.author {
+
+    color: var(--letterColor);
+}
+
+a {
+    color: var(--White);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+
+    color: var(--LightGreen);
+}
+
